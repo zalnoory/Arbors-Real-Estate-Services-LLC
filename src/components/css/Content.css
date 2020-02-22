@@ -1,0 +1,31 @@
+
+.main-nav {
+    list-style-type: none;
+    margin:auto;
+    padding: 0;
+    text-align: center; 
+    }
+      
+.main-nav li {
+    display: inline-block;
+    padding: 30px; 
+    }
+  
+
+.main-nav li a {
+    color:#333; 
+    text-decoration: none;
+    }
+
+
+/* Change color on hover */    
+.main-nav li a:hover {
+    color: #718817fe;
+    font-weight: bold;
+    }
+
+li a.home {
+    color: #718817fe;
+    font-weight: bold;
+}
+
