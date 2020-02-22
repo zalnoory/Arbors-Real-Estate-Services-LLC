@@ -4,12 +4,12 @@ import logo from './logo/logo.jpg';
 
 
 
-const TopBar=()=>{
+const TopBar= () => {
     const TopBarContainerStyle= {
             boxSizing: 'border-box',
             borderTop:'1px solid rgba(230, 229, 229, 1)',
             borderBottom:'1px solid rgba(230, 229, 229, 1)',
-            height:'50px',
+            height:'40px',
             display:'flex',
             
            
@@ -20,8 +20,8 @@ const TopBar=()=>{
         display:'inline-block',
         border:'1px solid black',
         float:'right',
-        marginRight:'50px',
-        marginLeft:'250px',
+        marginRight:'20px',
+        marginLeft:'200px',
         marginTop:'5px', 
         textDecoration:'none',
       }    
