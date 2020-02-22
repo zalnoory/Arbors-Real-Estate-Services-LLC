@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import TopBar from "./components/TopBar.js";
 
 
 class ArborsHomePage extends React.Component{
@@ -13,7 +13,7 @@ class ArborsHomePage extends React.Component{
                        backgroundColor: 'rgb (255, 255, 255)',
                       }}
                      > 
-
+                   <TopBar/> 
              
 
                   <div className="content">
