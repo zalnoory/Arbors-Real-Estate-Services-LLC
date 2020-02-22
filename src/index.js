@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TopBar from "./components/TopBar.js";
-
+import Content from "./components/Content.js";
 
 class ArborsHomePage extends React.Component{
   render(){
@@ -14,12 +14,8 @@ class ArborsHomePage extends React.Component{
                       }}
                      > 
                    <TopBar/> 
-             
-
-                  <div className="content">
-                        <h2>CSS Template</h2>
-                        <p>A topnav, content and a footer.</p>
-                  </div>
+                   <Content/>
+                 
 
                   <div className="footer">
                         <p>Footer</p>
