@@ -1,6 +1,6 @@
-import React from 'react'
-import logo from './logo/logo.jpg'
-import { TopBarContainer, TopBarLinks, StyledLogo, LinkContainer } from './TopBar.styles'
+import React from 'react';
+import logo from './logo/logo.jpg';
+import { TopBarContainer, TopBarLinks, StyledLogo, LinkContainer } from './TopBar.styles';
 
 const TopBar = () => {
   return (
