@@ -1,11 +1,19 @@
 import React from 'react';
-import NavContent from './NavContent.js';
+import NavBar from './NavBar.js';
+// import styled from 'styled-components'
+
+// const NavBarCompart= styled.div`
+
+// `
 
 
 const Content = () => {
   return (
     <div className= "content-container">
-    <NavContent/>
+      
+      <div>
+    <NavBar/>
+    </div>
   </div>
   )
 }
