@@ -4,8 +4,15 @@ export const TopBarContainer = styled.div`
   box-sizing: border-box;
   border-top: 1px solid rgba(230, 229, 229, 1);
   border-bottom: 1px solid rgba(230, 229, 229, 1);
-  height: 40px;
+  height:40px;
   display: flex;
+`
+
+export const RowStyle= styled.div`
+.row {
+  display: flex;
+}
+
 `
 
 
@@ -21,7 +28,6 @@ border:1px solid red;
 export const TopBarLinks = styled.a`
   display: block;
   border: 1px solid black;
- 
   margin-right: 20px;
   margin-left: 200px;
   margin-top: 5px;
