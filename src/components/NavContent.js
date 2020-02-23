@@ -6,30 +6,32 @@ const NavContent = () => {
     return(
         <div className="nav-container">
           <NavList>
-
-            <NavListItem>
-                  <HomeAnchor href="index.js" class="home">
-                    Home
-                     </HomeAnchor>
-            </NavListItem>
-
-            <NavListItem>
+          <NavListItem>
                   <NavAnchor href="index.js" class="resources">
                    Resources
                      </NavAnchor>
             </NavListItem>
 
-               <NavListItem>
-                  <NavAnchor href="#contact">
-                   Contact
-                     </NavAnchor>
-               </NavListItem>
-
-               <NavListItem>
+          <NavListItem>
                  <NavAnchor class="active" href="#about">
                   About
                   </NavAnchor>
                </NavListItem>
+
+          <NavListItem>
+                  <NavAnchor href="#contact">
+                   Contact
+                   </NavAnchor>
+                </NavListItem>
+
+          <NavListItem>
+                  <HomeAnchor href="index.js" class="home">
+                    Home
+                     </HomeAnchor>
+               </NavListItem>
+            
+
+               
                
             </NavList>
          </div>
