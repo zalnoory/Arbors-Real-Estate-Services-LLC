@@ -8,10 +8,20 @@ export const TopBarContainer = styled.div`
   display: flex;
 `
 
+
+export const LinkContainer= styled.div`
+box-sizing: border-box;
+display:flex;
+width:50%;
+border:1px solid red;
+
+`
+
+
 export const TopBarLinks = styled.a`
   display: block;
   border: 1px solid black;
-  float: right;
+ 
   margin-right: 20px;
   margin-left: 200px;
   margin-top: 5px;
