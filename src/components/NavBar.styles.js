@@ -14,7 +14,7 @@ display: inline-block;
  float:right;
 `
 
-export const NavAnchor= styled.a`
+export const NavAnchor = styled.a`
 color:#333; 
 text-decoration: none;
 
@@ -25,6 +25,19 @@ text-decoration: none;
 }
 `
 
+
+
+
+// export const NavAnchor= styled.a`
+// color:#333; 
+// text-decoration: none;
+
+// &:hover{
+//     color: #718817fe;
+//     font-weight: bold;
+//     text-decoration:none;
+// }
+// `
 
 
 export const HomeAnchor= styled.a`

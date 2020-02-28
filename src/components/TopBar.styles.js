@@ -4,11 +4,13 @@ export const Grid = styled.div`
   box-sizing: border-box;
   border-top: 1px solid rgba(230, 229, 229, 1);
   border-bottom: 1px solid rgba(230, 229, 229, 1);
-  height:40px;
+ 
 `;
 
+// Reference:https://medium.com/swlh/create-a-responsive-grid-with-react-flexbox-styled-components-f7a55f607480
 export const Row= styled.div`
 display: flex;
+height:35px;
 `;
 
 
@@ -31,7 +33,7 @@ display: none;
 `)};
 
 border:1px solid red;
-height:35px;
+
 
 `;
 
@@ -39,9 +41,8 @@ height:35px;
 export const TopBarLinks = styled.a`
   display: block;
   border: 1px solid black;
-  margin-right: 20px;
-  margin-left: 200px;
-  margin-top: 5px;
+  margin:auto;
+  text-align:center;
   text-decoration: none;
 `;
 
@@ -49,4 +50,5 @@ export const StyledLogo = styled.img`
   width: 100px;
   height: 30px;
   border: 0px;
+ 
 `;
