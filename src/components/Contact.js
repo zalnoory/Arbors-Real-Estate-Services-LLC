@@ -4,9 +4,10 @@ import React from 'react'
 
 
 
-export default class Contact extends React.Component {
-  render() {
+const Contact= ()=> {
+ {
     return <h1>Contact</h1>
   }
 }
 
+export default Contact;

@@ -7,9 +7,7 @@ import styled from 'styled-components'
 
 // `
 
-export default class Content extends React.Component { 
-  render(){
-    
+ const Content= () =>{
   return (
     <div className= "content-container">
       <div>
@@ -18,4 +16,6 @@ export default class Content extends React.Component {
   </div>
   )
 }
-}
+
+
+export default Content;

@@ -26,8 +26,6 @@ text-decoration: none;
 `
 
 
-
-
 // export const NavAnchor= styled.a`
 // color:#333; 
 // text-decoration: none;
@@ -49,3 +47,17 @@ font-weight: bold;
     text-decoration:none;
 }
 `
+
+// Reference:https://medium.com/swlh/create-a-responsive-grid-with-react-flexbox-styled-components-f7a55f607480
+export const Row= styled.div`
+display: flex;
+border:2px solid yellow;
+`;
+
+
+export const Col= styled.nav`
+
+flex:${(props)=> props.size};
+
+border:1px solid red;
+`;

@@ -33,8 +33,6 @@ display: none;
 `)};
 
 border:1px solid red;
-
-
 `;
 
 

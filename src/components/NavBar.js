@@ -1,29 +1,36 @@
 import React from "react";
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
-import {NavList, NavListItem, NavAnchor , HomeAnchor} from './NavBar.styles';
+import {NavList, NavListItem, NavAnchor , HomeAnchor, Row, Col,} from './NavBar.styles';
 import About from './About';
 import Contact from './Contact';
 import Resources from './Resources';
+import Home from './Home';
 
-export default class NavBar extends React.Component { 
-    render(){
+
+const NavBar= ()=> { 
   
       const navItems= [
-        {name:'Home', compoPath:'/',},
-        {name:'About', compoPath:'/about',},
-        {name:'Contact', compoPath:'/Contact',},
-        {name:'Resources', compoPath:'/Resources',},
+        {name:'Resources', compoPath:'/resources'},
+        {name:'Contact', compoPath:'/contact'},
+        {name:'About', compoPath:'/about'},
+        {name:'Home', compoPath:'/home'},
+       
+       
+        
+       
         ];
              
     return (
-// https://reacttraining.com/react-router/web/example/basic
-// installed react-router-dom.
+        <Row>
+        <Col size={1} >
+
+ {/* https://reacttraining.com/react-router/web/example/basic
+ installed react-router-dom. */}
       <Router>
-        <div>
-          {/*populating NavBar dynamically  */}
+        {/*populating NavBar dynamically  */}
         {navItems.map((item, i)=> {
                 return (
-                  <nav>
+                 
                    <NavList key={i}>
                          <NavListItem>
                                <Link style={{textDecoration:"none"}} to= {item.compoPath} class="resources">
@@ -32,57 +39,52 @@ export default class NavBar extends React.Component {
                     </NavListItem>
   
                     </NavList>
-                 </nav>
+                 
             )})}
   
           {/* A <Switch> looks through its children <Route>s and
               renders the first one that matches the current URL. */}
           <Switch>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route path="/resources">
-              <Resources/>
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
+            {/* <IndexRoute component = {Home} />  figure later*/} 
+            <Route path="/resources" component= {Resources} />
+            <Route path="/contact" component= {Contact} />
+            <Route path="/about" component= {About}/>
+            <Route path="/home"  component ={Home} />
+              {/* <Home/>
+            </Route> */}
           </Switch>
-        </div>
       </Router>
+          </Col>
+        </Row>
          )
-    }
+      }
+    
+  {/* NavBar ends here............................................/  */}
   
-    }
-  // NavBar ends here............................................/ 
+  export default NavBar
   
-  
-  
-  class Home extends React.Component { 
+  {/* class Home extends React.Component { 
     render(){
     return <h2>Home</h2>;
    }
   }
   
-  // class About extends React.Component { 
-  //   render(){
-  //   return <h2>About</h2>;
-  //  }
-  // }
+class About extends React.Component { 
+  render(){
+    return <h2>About</h2>;
+   }
+   }
   
   
-  // class Contact extends React.Component { 
-  //   render(){
-  //   return <h2>Contact</h2>;
-  //  }
-  // }
+   class Contact extends React.Component { 
+     render(){
+     return <h2>Contact</h2>;
+    }
+  }
   
-  // class Resources extends React.Component { 
-  //   render(){
-  //   return <h2>Resources</h2>;
-  //  }
-  // }
-  
+   class Resources extends React.Component { 
+     render(){
+     return <h2>Resources</h2>;
+    }
+  }
+   */}

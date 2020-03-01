@@ -6,6 +6,7 @@ import Content from "./components/Content.js";
 
 export default class ArborsHome extends React.Component{
   render(){
+    
        return(  
          <div style={{
                       minHeight: '100vh',
