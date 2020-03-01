@@ -3,10 +3,10 @@ import React from 'react'
 
 
 
-class Resources extends React.Component {
-  render() {
+const Resources =()=>{
+  
     return <h1>Resources</h1>
   }
-}
+
 
 export default Resources;
