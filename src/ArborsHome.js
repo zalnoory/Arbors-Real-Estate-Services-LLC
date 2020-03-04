@@ -13,6 +13,8 @@ export default class ArborsHome extends React.Component{
                       position: 'relative',
                      boxSizing:'border-box',
                      backgroundColor: 'rgb (255, 255, 255)',
+                     fontFamily:'Poppins,sansSerif',
+                     fontSize:'12px',
                    }}
                    > 
                  <TopBar/>  
