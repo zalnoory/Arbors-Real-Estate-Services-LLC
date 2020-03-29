@@ -33,7 +33,7 @@ const NavBar= ()=> {
                  
                    <NavList key={i}>
                          <NavListItem>
-                               <Link style={{textDecoration:"none"}} to= {item.compoPath} class="resources">
+                               <Link style={{textDecoration:"none"}} to= {item.compoPath} >
                                <NavAnchor> {item.name} </NavAnchor>
                               </Link>
                     </NavListItem>

@@ -94,7 +94,7 @@ export const Form= styled.form`
         border-radius: 1em;
         padding: 1em;
         position: absolute;
-        margin-top: 160px;
+        margin-top: 145px;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) 

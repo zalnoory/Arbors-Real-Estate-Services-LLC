@@ -1,10 +1,15 @@
 import React from 'react'
 import {Container,ChildContainer,Form, } from './NavBar.styles';
-import NavBar from './NavBar.js';
+import PropTypes from 'prop-types';
 
 class Home extends React.Component{
     
-    
+    constructor(props) {
+        super(props);
+        this.state = {
+         
+        };
+    }
     
     render(){
         return(
@@ -13,7 +18,9 @@ class Home extends React.Component{
        <Form>
       
     <p style={{textAlign:'center'}}>FIND A HOME</p>
-     <input type="text"/><input type="text"/><input type="text"/><input type="text"/>
+    <div>
+     <input type="text" placeholder=" Search By City" /><input type="text"/><input type="text"/><input type="text"/>
+     </div>
        </Form>
        </ChildContainer>
        </Container>
