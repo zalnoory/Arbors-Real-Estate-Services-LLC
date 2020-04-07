@@ -1,0 +1,63 @@
+
+
+
+
+.formContainer {
+  
+  width: 300px;
+  height:500px;
+  border: 1px solid #d6d7da;
+  padding: 0px 15px 15px 15px;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #ffffff;
+  margin: 100px auto;
+}
+
+input {
+  
+  padding: 5px 0;
+  box-sizing:border-box;
+  box-shadow:none;
+  outline:none;
+  border:none;
+  border-bottom: 1px solid #999;
+  width:200px;
+  font-size: 12px;
+ 
+
+}
+
+.fieldGroup {
+  margin:40px;
+  position:relative;
+ 
+}
+
+
+label{
+  position:absolute;
+  top:10px;
+  left:0;  
+  color: #999;
+  transition:.5s;
+  pointer-events:none;
+  font-family:italic;
+  font-size: 10px;
+
+}
+
+label.active {
+  transform: translateY(-15px);
+  transition:.5s;
+  color: #999;
+  font-weight:bold;
+  font-size: 8px;
+  
+}
+
+
+
