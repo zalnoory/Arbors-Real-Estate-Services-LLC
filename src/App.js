@@ -4,7 +4,7 @@ import Content from "./components/Content.js";
 
 
 
-export default class ArborsHome extends React.Component{
+export default class ArborsApp extends React.Component{
   render(){
     
        return(  
